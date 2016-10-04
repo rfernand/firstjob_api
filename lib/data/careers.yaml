@@ -1,0 +1,471 @@
+careers:
+  1:  Ingeniería Comercial
+  2:  Ingeniería Civil Industrial
+  3:  Ingeniería Civil Informática
+  4:  Ingeniería en Información y Control de Gestión
+  6:  Ingeniería Ejecución en Administración
+  7:  Ingeniería Ejecución en Administración de Empresa
+  12:  Ingeniería Ejecución en Administración de Negocios
+  13:  Ingeniería Ejecución en Administración de Recursos Humanos
+  14:  Ingeniería Ejecución en Administración Pública
+  18:  Ingeniería Ejecución en Control de Gestión
+  19:  Ingeniería Ejecución en Gestión
+  20:  Ingeniería Ejecución en Gestión de Empresas
+  21:  Ingeniería Ejecución en Gestión de Negocios
+  24:  Ingeniería Ejecución en Gestión Empresarial
+  25:  Ingeniería Ejecución en Computación e Informática
+  26:  Ingeniería Ejecución Industrial
+  30:  Ingeniería en Administración
+  31:  Ingeniería en Administración de Empresas
+  34:  Ingeniería en Administración de Recursos Humanos
+  39:  Ingeniería en Control de Gestión
+  40:  Ingeniería en Gestión de Empresas
+  41:  Ingeniería en Gestión de Recursos Humanos
+  42:  Ingeniería en Gestión Empresarial
+  46:  Ingeniería en Sistemas de Información y Control de Gestión
+  60:  Técnico Nivel Superior en Administración
+  62:  Técnico Nivel Superior en Administración Comercial
+  65:  Técnico Nivel Superior en Administración de Empresas
+  68:  Técnico Nivel Superior en Administración de Recursos Humanos
+  70:  Técnico Nivel Superior en Administración de Ventas
+  73:  Técnico Nivel Superior en Administración Financiera
+  74:  Técnico Nivel Superior en Administración General
+  75:  Técnico Nivel Superior en Administración Pública
+  77:  Técnico Nivel Superior en Administración y Gestión de Empresas
+  83:  Técnico Nivel Superior en Gestión de Empresas
+  84:  Técnico Nivel Superior en Gestión de Negocios
+  85:  Técnico Nivel Superior en Gestión de Personas
+  87:  Técnico Nivel Superior en Gestión Empresarial
+  89:  Técnico Nivel Superior en Gestión Organizacional
+  90:  Técnico Nivel Superior en Recursos Humanos
+  94:  Técnico Nivel Superior Secretariado Ejecutivo Gerencial
+  103:  Administración de Negocios Internacionales
+  105:  Ingeniería Ejecución en Comercio Internacional
+  107:  Ingeniería en Comercio Exterior
+  109:  Ingeniería en Gestión de Negocios Internacionales
+  126:  Contador Auditor
+  147:  Ingeniería en Finanzas
+  151:  Técnico Nivel Superior en Administración Bancaria
+  153:  Técnico Nivel Superior en Administración Financiera
+  154:  Técnico Nivel Superior en Finanzas
+  155:  Técnico Nivel Superior en Gestión Bancaria e Instituciones Financieras
+  156:  Técnico Nivel Superior en Gestión de Productos y Servicios Financieros
+  158:  Técnico Nivel Superior en Gestión Financiera
+  164:  Ingeniería en Marketing
+  165:  Publicidad
+  241:  Ingeniería Agroindustrial
+  243:  Ingeniería Civil Agricola
+  244:  Ingeniería Civil en Agroindustrias
+  246:  Ingeniería en Agronegocios
+  274:  Ingeniería en Industria de la Madera
+  275:  Ingeniería Forestal
+  299:  Arquitectura
+  351:  Produccion CrossMedia
+  390:  Diseño
+  403:  Diseño Grafico
+  409:  Diseño Industrial
+  411:  Diseño Multimedia
+  413:  Ingeniería en Diseño de Productos
+  481:  Estadistica
+  483:  Ingeniería Estadistica
+  546:  Relaciones Públicas
+  583:  Periodismo
+  591:  Psicologia
+  594:  Sociologia
+  615:  Trabajo Social
+  617:  Derecho
+  1012:  Ingeniería Civil
+  1014:  Ingeniería Civil Plan Comun
+  1022:  Construccion Civil
+  1025:  Ingeniería Civil de Materiales
+  1026:  Ingeniería Civil en Construccion
+  1027:  Ingeniería Civil en Obras Civiles
+  1029:  Ingeniería en Construccion
+  1031:  Técnico Nivel Superior en Construccion
+  1032:  Técnico Nivel Superior en Construccion Civil
+  1035:  Técnico Nivel Superior en Construccion y Edificacion
+  1042:  Técnico Nivel Superior en Proyectos de Ingeniería
+  1043:  Técnico Nivel Superior en Proyectos y Diseño Estructurales
+  1044:  Técnico Nivel Superior en Sondaje
+  1049:  Ingeniería Ejecución Eléctrica
+  1050:  Ingeniería Ejecución Electrónica
+  1051:  Ingeniería Ejecución en Automatización y Control Industrial
+  1052:  Ingeniería Ejecución en Electricidad
+  1054:  Ingeniería Ejecución en Electrónica
+  1055:  Ingeniería Ejecución en Electrónica y Telecomunicaciones
+  1056:  Ingeniería Civil Eléctrica
+  1057:  Ingeniería Civil Electrónica
+  1062:  Ingeniería Eléctrica
+  1063:  Ingeniería Electrónica
+  1064:  Ingeniería en Automatización y Control Industrial
+  1111:  Ingeniería Ejecución en Prevención de Riesgos
+  1116:  Ingeniería Ejecución Industrial
+  1122:  Ingeniería en Climatización
+  1123:  Ingeniería en Gestión Industrial
+  1124:  Ingeniería en Industria y Logística
+  1125:  Ingeniería en Mantenimiento Industrial
+  1126:  Ingeniería en Prevención de Riesgo y Medio Ambiente
+  1127:  Ingeniería en Prevención de Riesgos
+  1128:  Ingeniería en Prevención de Riesgos Laborales y Ambientales
+  1129:  Ingeniería en Prevención de Riesgos y Medio Ambiente
+  1130:  Ingeniería en Prevención de Riesgos, Calidad y Ambiente
+  1131:  Ingeniería en Prevención de Riesgos, Calidad y Medio Ambiente
+  1132:  Ingeniería en Prevención en Riesgos
+  1133:  Ingeniería en Refrigeración
+  1134:  Ingeniería en Seguridad y Prevención de Riesgos
+  1135:  Ingeniería Industrial
+  1137:  Técnico Nivel Sup en Prevención de Riesgos
+  1138:  Técnico Nivel Superior en Administración de Operaciones
+  1139:  Técnico Nivel Superior en Administración de Seguridad Privada
+  1140:  Técnico Nivel Superior en Administración Industrial
+  1141:  Técnico Nivel Superior en Administración Industrial de Procesos Productivos
+  1142:  Técnico Nivel Superior en Climatización
+  1143:  Técnico Nivel Superior en Control Industrial
+  1144:  Técnico Nivel Superior en Control y Gestión Calidad
+  1145:  Técnico Nivel Superior en Fabricacion y Montaje Industrial
+  1146:  Técnico Nivel Superior en Gestión de Calidad
+  1147:  Técnico Nivel Superior en Gestión de Calidad Industrial
+  1148:  Técnico Nivel Superior en Gestión de Calidad y Ambiental
+  1149:  Técnico Nivel Superior en Gestión de Sistemas de Calidad Industrial
+  1150:  Técnico Nivel Superior en Gestión y Control de Calidad
+  1151:  Técnico Nivel Superior en Mantencion Industrial
+  1152:  Técnico Nivel Superior en Mantenimiento Predictivo
+  1153:  Técnico Nivel Superior en Prevención de Riesgos
+  1154:  Técnico Nivel Superior en Prevención de Riesgos Industriales
+  1155:  Técnico Nivel Superior en Prevención de Riesgos y Medio Ambiente
+  1156:  Técnico Nivel Superior en Procesos Industriales
+  1157:  Técnico Nivel Superior en Refrigeración
+  1158:  Técnico Nivel Superior en Refrigeración Industrial y Aire Acondicionado
+  1159:  Técnico Nivel Superior en Refrigeración y Climatización Industrial
+  1160:  Técnico Nivel Superior Industrial
+  1161:  Técnico Nivel Superior Instrumentación y Automatización Industrial
+  1162:  Técnico Nivel Superior Operador de Plantas Industriales
+  1163:  Técnico Nivel Superior Prevención de Riesgos
+  1164:  Técnico Nivel Superior Prevenciónista de Riesgos
+  1165:  Ingeniería Ejecución en Administración Logística
+  1166:  Ingeniería Ejecución en Logística
+  1167:  Ingeniería Civil Aeroespacial
+  1168:  Ingeniería Civil Logística
+  1169:  Ingeniería en Aviacion Comercial
+  1170:  Ingeniería en Gestión Logística
+  1172:  Ingeniería en Logística y Transporte
+  1174:  Ingeniería en Transporte
+  1178:  Ingeniería Naval
+  1179:  Técnico Nivel Superior Asistente en Logística y Operaciones Portuarias
+  1180:  Técnico Nivel Superior en Administración de Logística
+  1181:  Técnico Nivel Superior en Administración de Operaciones Logísticas
+  1182:  Técnico Nivel Superior en Administración Logística
+  1183:  Técnico Nivel Superior en Administración Portuaria Pesquero Artesanal
+  1184:  Técnico Nivel Superior en Gestión Logística
+  1185:  Técnico Nivel Superior en Gestión Marítimo Portuaria
+  1191:  Técnico Nivel Superior en Transporte
+  1193:  Técnico Nivel Superior Logística Operativa
+  1194:  Técnico Nivel Superior Operaciones Logísticas
+  1195:  Técnico Nivel Superior Piloto Comercial
+  1196:  Ingeniería Ejecución en Mantenimiento Industrial
+  1201:  Ingeniería Civil Mecánica
+  1202:  Ingeniería en Mantenimiento Industrial
+  1207:  Ingeniería Mecánica
+  1208:  Ingeniería Mecánica en Mantenimiento Industrial
+  1209:  Ingeniería Mecánica en Produccion Industrial
+  1210:  Ingeniería Mecánica Industrial
+  1212:  Ingeniería Mecatronica
+  1243:  Ingeniería Ejecución en Gestión de Recursos Naturales
+  1244:  Ingeniería Ambiental
+  1245:  Ingeniería Civil Ambiental
+  1246:  Ingeniería del Medio Ambiente y Recursos Naturales
+  1247:  Ingeniería en Conservacion de Recursos Naturales
+  1248:  Ingeniería en Econergía
+  1249:  Ingeniería en Medio Ambiente
+  1250:  Ingeniería en Recursos Naturales
+  1258:  Ingeniería Ejecución en Minas
+  1260:  Ingeniería Civil en Minas
+  1262:  Ingeniería Civil Geológica
+  1263:  Ingeniería en Minas
+  1264:  Ingeniería Geológica
+  1289:  Ingeniería Civil Matemática
+  1290:  Ingeniería Matemática
+  1291:  Ingeniería Ejecución en Bioprocesos
+  1292:  Ingeniería Ejecución en Metalurgia
+  1294:  Ingeniería Ejecución en Química
+  1295:  Ingeniería Ejecución en Química Industrial
+  1296:  Ingeniería Civil Bioquímica
+  1301:  Ingeniería Civil Metalurgia
+  1302:  Ingeniería Civil Metalúrgica
+  1303:  Ingeniería Civil Química
+  1304:  Ingeniería en Bioprocesos
+  1305:  Ingeniería en Metalurgia
+  1306:  Ingeniería en Química
+  1307:  Ingeniería en Química Industrial
+  1308:  Química Industrial
+  1309:  Técnico Nivel Superior en Geometalurgia
+  1310:  Técnico Nivel Superior en Matricería para Plásticos y Metales
+  1311:  Técnico Nivel Superior en Metalurgia
+  1314:  Técnico Nivel Superior en Metalurgia
+  1315:  Ingeniería Ejecución en Sonido
+  1318:  Ingeniería Civil Acústica
+  1320:  Ingeniería en Sonido
+  1325:  Ingeniería Ejecución en Administración de Redes
+  1326:  Ingeniería Ejecución en Computación
+  1328:  Ingeniería Ejecución en Conectividad y Redes
+  1329:  Ingeniería Ejecución en Informática
+  1331:  Ingeniería Ejecución en Redes
+  1332:  Ingeniería Ejecución en Telecomunicaciones
+  1333:  Ingeniería Ejecución en Telemática
+  1335:  Ingeniería Civil en Computación
+  1341:  Ingeniería Civil Informática y Telecomunicaciones
+  1342:  Ingeniería Civil Telemática
+  1343:  Ingeniería en Computación
+  1344:  Ingeniería en Computación e Informática
+  1345:  Ingeniería en Conectividad y Redes
+  1346:  Ingeniería en Gestión de Tecnologías de Información
+  1348:  Ingeniería en Gestión Informática
+  1349:  Ingeniería en Informática
+  1350:  Ingeniería en Informática Empresarial
+  1351:  Ingeniería en Informática y Gestión
+  1352:  Ingeniería en Infraestructura y Plataformas Tecnológicas
+  1353:  Ingeniería en Redes Computaciónales
+  1356:  Ingeniería en Telecomunicaciones
+  1358:  Ingeniería Informática Multimedia
+  1360:  Técnico Nivel Superior Analista de Sistemas
+  1361:  Técnico Nivel Superior Analista Programador
+  1363:  Técnico Nivel Superior en Administración de Redes Computaciónales
+  1365:  Técnico Nivel Superior en Administración y Seguridad de Redes
+  1369:  Técnico Nivel Superior en Analisis de Sistemas
+  1370:  Técnico Nivel Superior en Computación
+  1376:  Técnico Nivel Superior en Informática
+  1381:  Técnico Nivel Superior en Programacion
+  1390:  Técnico Nivel Superior en Sistemas Informaticos
+  1391:  Técnico Nivel Superior en Soporte Computaciónal
+  1399:  Técnico Nivel Superior Informática
+  1400:  Técnico Nivel Superior Soporte en Redes
+  1401:  Técnico Nivel Superior Telecomunicaciones
+  1402:  Administración de Empresas
+  1403:  Administración de Servicios
+  1404:  Administración Pública
+  1622:  Tecnólogo en Construccion
+  1623:  Tecnólogo en Mantenimiento Industrial
+  1624:  Tecnólogo en Telecomunicaciones
+  1625:  Tecnólogo en Administración de Personal
+  1626:  Tecnólogo en Alimentos
+  1627:  Técnico en Mantenimiento Electromecánico 
+  1633:  Técnico en Marketing y Gestión Comercial
+  1636:  Dirección y Producción de Eventos
+  5276:  Ingeniería Civil en Biotecnología
+  5277:  Ciencias Políticas
+  5278:  Traducción Inglés - Español mención negocios internacionales
+  5279:  Técnico Nivel Superior en Educación Especial
+  5280:  Tecnología en análisis químico
+  5281:  Pedagogía en Danza
+  5282:  Medicina Veterinaria
+  5283:  Ingeniería en Geomensura
+  5284:  Técnico Nivel Superior en Enfermería
+  5285:  Geografía
+  5286:  Técnico en Empresas Turísticas
+  5288:  Químico Analista
+  5289:  Fonoaudiología
+  5290:  Técnico Nivel Superior en Dibujo de Arquitectura y Obras Civiles
+  5291:  Terapeuta Ocupacional 
+  5292:  Informática Biomédica
+  5293:  Gastronomía Internacional
+  5294:  Kinesiología
+  5295:  Educación Parvularia
+  5296:  Pedagogía en Inglés
+  5297:  Nutrición y Dietética
+  5298:  Técnico Nivel Superior en Odontología
+  5299:  Pedagogía en Historia y Geogrrafía
+  5300:  Preparador Físico
+  5301:  Tecnología Médica
+  5302:  Geología
+  5303:  Odontología
+  5304:  Licenciatura y Pedagogía en Música
+  5305:  Pedagogía Teatral
+  5306:  Técnico Laboratorista en Banco de Sangre
+  5307:  Administración en Empresas Turísticas
+  5308:  Turismo
+  5309:  Técnico Nivel Superior en Mecánica Automotriz y Autotrónica
+  5310:  Bioquímica
+  5311:  Técnico Nivel Superior en Contabilidad General
+  5312:  Psicopedagogía
+  5313:  Ingeniería en Alimentos
+  5315:  Biología
+  5316:  Licenciatura en Biología
+  5317:  Ingeniería Agrícola
+  5318:  Cajero Bancario
+  5319:  Enfermería
+  5320:  Pedagogía en Educación Básica
+  5321:  Técnico Nivel Superior en Operaciones Portuarias
+  5322:  Licenciatura de Orientación Educativa
+  5323:  Técnico de Consejería en Rehabilitación
+  5325:  Técnico Deportivo
+  5326:  Comunicación Audiovisual
+  5327:  Cosmetología 
+  5328:  Estética Integral
+  5329:  Técnico Nivel Superior en Energías Renovables y Eficiencia Energética
+  5330:  Biólogo
+  5331:  Pedagogía en Ciencias Naturales con mención el Física
+  5332:  Antropología
+  5333:  Técnico Nivel Superior en Mecánica Automotriz en Maquinaria Pesada
+  5334:  Topografía
+  5335:  Ingeniero Agrónomo
+  5336:  Pedagogía en Educación Física
+  5337:  Relaciones Públicas para gestión de las Comunicaciones
+  5338:  Comunicador Digital Multimedia
+  5339:  Profesor de Educación General Básica
+  5340:  Cine y TV
+  5341:  Técnico en Cosmetología
+  5342:  Técnico en Comunicación Audiovisual 
+  5343:  Técnico en Salud y Terapias Naturales
+  5344:  Licenciatura en Comunicación Social
+  5345:  Ingeniería en Maquinaria Vehículos Automotrices y Sistemas Electrónicos
+  5346:  Traducción en Idiomas Extranjeros
+  5347:  Diseñador Gráfico Multimedia
+  5348:  Socioeconomía
+  5349:  Técnico de Nivel Superior en Gastronomía
+  5350:  Pedagogía en Castellano
+  5351:  Ingeniería en Acuicultura
+  5352:  Química y Farmacia
+  5353:  Traducción e Interpretación Simultanea y consecutiva ingles/español
+  5354:  Traducción e Interpretación de enlace mención francés
+  5355:  Traducción Inglés-Español
+  5356:  Fotografía
+  5358:  Técnico en Química y Farmacia
+  5359:  Auxiliar de Farmacia
+  5361:  Pedagogía en Biología
+  5362:  Licenciatura en Historia
+  5363:  Ingeniería Civil Biomédica
+  5364:  Licenciatura en Ciencias Sociales
+  5365:  Técnico Jurídico
+  5366:  Agente de Ventas Mención Visitador Médico
+  5367:  Animación Digital
+  5368:  Cartografía
+  5369:  Técnico Nivel Superior en Maquinaria Pesada
+  5370:  Ingeniería Geomática
+  5371:  Técnico Nivel Superior en Electricidad
+  5372:  Ingeniería en Mecánica Automotriz y Autotrónica
+  5373:  Ingeniería en Maquinaria Pesada y Vehículos Automotrices
+  5374:  Química Ambiental
+  5375:  Biólogo Marino
+  5376:  Administración de hoteles y restaurantes
+  5377:  Diseño de Vestuario
+  5378:  Diseño de Vestuario y Textil
+  5379:  Diseño de Vestuario y Textiles
+  5380:  Diseño y Programación Multimedia
+  5384:  Bibliotecología y Documentación
+  5385:  Técnico en Sonido
+  5386:  Astronomía
+  5387:  Tecnologia indrustrial de los alimentos
+  5388:  Ilustración Artística
+  5389:  Técnico en Trabajo Social
+  5390:  Técnico Universitario en Electrónica
+  5391:  Técnico Nivel Superior en comercio Exterior
+  5392:  Medicina
+  5393:  Técnico en Masoterapia
+  5394:  Pedagogía en Química y Ciencias Naturales
+  5395:  Ingeniería Física
+  5396:  Dibujante Proyectista
+  5398:  Quimico Laboratorista
+  5399:  Técnico de Nivel Superior en Electricidad de Potencia 
+  5400:  Técnico de Nivel Superior en Electricidad Industrial
+  5401:  Técnico de Nivel Superior en Electricidad y Electrónica
+  5402:  Técnico de Nivel Superior en Instrumentación Industrial
+  5403:  Técnico de Nivel Superior en Mantención Industrial
+  5404:  Técnico de Nivel Superior en Mecánica Industrial
+  5405:  Técnico de Nivel Superior en Operaciones Mineras
+  5406:  Técnico de Nivel Superior Mecánico en Producción Industrial 
+  5407:  Técnico de Operación de Equipos Móviles Mineros 
+  5409:  Técnico en Electromecánica
+  5410:  Técnico en Exploración Minera
+  5411:  Técnico en Geominería
+  5413:  Técnico en Metalurgia Extractiva
+  5414:  Técnico Operación de Plantas Mineras
+  5415:  Técnico Operador de Plantas Industriales
+  5416:  Técnico Universitario en Análisis Químico y Físico 
+  5417:  Técnico Universitario en Minería y Metalurgia
+  5418:  Técnico de Nivel Superior en Minería Metalúrgica
+  5419:  Técnico de Nivel Superior en Minería 
+  5420:  Tecnología en Operaciones Mineras
+  5421:  Educación Diferencial
+  5423:  Licenciatura en Filosofía
+  5424:  Ingenería Civil en Telecomunicaciones
+  5425:  Licenciatura en Teoría e Historia del Arte
+  5426:  Ingeniería Civil en Automatización
+  5428:  Ingeniería en Gestión Comercial
+  5429:  Ingeniería Civil en Geografía
+  5430:  Ingeniería en Maquinaria y Vehículos Pesados
+  5431:  Técnico en Maquinaria y Vehículos Pesados
+  5432:  Técnico en Mantenimiento Industrial
+  5433:  Técnico en Mantención Predictiva Mención Minería
+  5434:  Técnico en Mantención Electromecánica Mención Minería
+  5435:  Técnico en Mantención Electromecánica Mención Industrias
+  5436:  Ingeniería Civil Oceánica
+  5437:  Ingeniería de Ejecución en Mecánica
+  5438:  Ingeniería de Ejecución en Mecánica de Procesos y Mantenimiento Industrial
+  5443:  Auxiliar de Cabina (TCP)
+  5444:  Licenciatura en Estudios Internacionales
+  5445:  Diseño Web & Mobile
+  5446:  Tecnología en Deportes y Recreación
+  5447:  Ingeniería en Turismo y Hotelería
+  5448:  Ingeniería en Biotecnología Vegetal
+  5449:  Ingeniería en Biotecnología Molecular
+  5450:  Ingeniería Civil en Computación e Informática
+  5456:  Diseño de Ambientes
+  5458:  Ingeniería en Administración de Empresas Financieras
+  5459:  Ingeniería en Administración de Negocios y Gestión Comercial
+  5460:  Ingeniería en Gestión Financiera
+  5461:  Téc. Nivel Sup. Financiero
+  5462:  Téc. Nivel Sup. en Gestión de Servicios Financieros
+  5463:  Diseño Gráfico y Comunicación Multimedial
+  5464:  Téc. Nivel Sup. en Diseño Gráfico
+  5465:  Téc. Nivel Sup. en Diseño y Producción Gráfica
+  5466:  Téc. Nivel Sup. en Diseño Gráfico Computacional
+  5467:  Periodismo, Dirección Audiovisual, Publicidad
+  5468:  Téc. Nivel Sup. en Relaciones Públicas de Negocios
+  5469:  Téc. Nivel Sup. en Comunicación y Relaciones Públicas
+  5470:  Téc. Nivel Sup. en Relaciones Públicas y Producción de Eventos
+  5471:  Téc. Nivel Sup. en Marketing y Ventas
+  5472:  Téc. Nivel Sup. en Marketing y Gestión Comercial
+  5473:  Téc. Nivel Sup. en Marketing
+  5474:  Tecnólogo en Administración de Personal
+  5475:  Téc. Nivel Sup. en Administración y Gestión de Personal
+  5476:  Téc. en Logistica
+  5477:  Téc. Nivel Sup. en Logística y Operaciones Industriales
+  5478:  Ingeniería Ejecución Mecánica
+  5479:  Ingeniería en Logística
+  5480:  Ingeniería en Sistemas de Información Empresarial y Control
+  5481:  Auditoría e Ingeniería en Control de Gestión
+  5482:  Ingeniería  Ejecución en Control de Gestión
+  5483:  Téc. Nivel Sup. en Gestión y Administración de Organizaciones Comunitarias
+  5484:  Ingeniería en Información y Control de Gestión y/o Contador Auditor
+  5486:  Téc. Nivel Sup. en Control de Gestión y Logística
+  5487:  Técnico Nivel Superior en Control de Gestión
+  5488:  Ingeniería Civil en Electricidad
+  5489:  Técnico Eléctrico
+  5490:  Técnico Nivel Superior en Electricidad y Automatización Industrial
+  5491:  Técnico Nivel Sup. en Electrónica Industrial
+  5492:  Técnico Nivel Sup. en Electricidad y Electrónica Industrial
+  5493:  Técnico Nivel Sup. en Electricidad
+  5494:  Ingeniería Civil y Ejecución Eléctrica-Electrónica Ingreso Común
+  5495:  Téc. Nivel Sup. en Mantenimiento Electromecánico
+  5496:  Téc. Nivel Sup. Asistente Ejecutivo
+  5497:  Contador Público y Auditor
+  5498:  Técnico en Contabilidad
+  5499:  Ingeniería en Administración Publica y Municipal
+  5500:  Ingeniería en Conservación de Recursos Naturales - Ingeniería Forestal
+  5501:  Ingeniería y Ciencias Plan Común
+  5502:  Tecnólogo en Construcciones
+  5503:  Ingeniería en Gestión de la Construcción
+  5504:  Licenciatura en Geografía
+  5505:  Kinesiología y Rehabilitación
+  5506:  Turismo y Hotelería
+  5507:  Ecoturismo
+  5508:  Gestión en Turismo y Cultura
+  5509:  Ingeniería en Gestión Turística
+  5510:  Ingeniería en Turismo
+  5511:  Hotelería y Turismo
+  5512:  Ingeniería en Hotelería y Turismo
+  5513:  Téc. Nivel Sup. en Mecánica Automotriz
+  5514:  Téc. Nivel Sup. Mantenimiento Mecánico
+  5515:  Ingeniería Civil en Minería
+  5516:  Diseño
+  5517:  Técnico Agrícola
