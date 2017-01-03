@@ -35,12 +35,12 @@ module Firstjob
                                  body: Firstjob.body.merge({publish_job: self.body}).to_json
                                 )
                               )
-      response_body = HttpParser.parse_response(response)
+      response_body = HttpParser.parse_json_response(response)
 
       # load results
-      slug = response_body["slug"]
-      id = response_body["id"]
-      status = response_body["status"]
+      @slug = response_body["slug"]
+      @id = response_body["id"]
+      @status = response_body["status"]
       return self
     end
 
@@ -52,20 +52,20 @@ module Firstjob
       # Get postulants
       response = Firstjob.post("/api/get_applicants_job",
                                Firstjob.options.merge(
-                                 body: Firstjob.body.merge({id: id}).to_json
+                                 body: Firstjob.body.merge({job_id: @id}).to_json
                                 )
                               )
-      response_body = HttpParser.parse_response(response)
+      response_body = HttpParser.parse_json_response(response)
 
       # load results
-      postulants = response_body["postulants"]
+      @postulants = response_body["postulants"]
       return postulants
     end
 
     def destroy
       response = Firstjob.post("/api/doregister_job",
                                Firstjob.options.merge(
-                                 body: Firstjob.body.merge({id: id}).to_json
+                                 body: Firstjob.body.merge({job_id: id}).to_json
                                 )
                               )
       response_body = HttpParser.parse_response(response)

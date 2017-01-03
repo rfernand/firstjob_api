@@ -25,7 +25,7 @@ module Firstjob
           raise "Error #{response.code}, unkown response: #{response.request.path}, #{response.body}"
       end
     end
-    def self.parse_response_to_json(response)
+    def self.parse_json_response(response)
       Firstjob.last_response = response
       Firstjob.last_request = response.request
       case response.code
