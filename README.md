@@ -30,17 +30,37 @@ end
 
 
 And more that don't need an ID. All return a json object, and raise an error (401, 404, 500) if there was one:
-### Create and publish a new publication
+### Create and publish a publication
 ```ruby
 publication = Firstjob::Publication.new(title: "Publicacion de prueba", description: "Test", looking_for_id: 1, career_status_id: 1, excel_level_id: 2, english_level_id: 2, universities_ids: [1,2], careers_ids: [1, 6])
 publication.publish()
 ```
+Returns Firstjob::Publication object with the publication.id and publication.slug issued by Firstjob.
 
 ### Get postulants of a publication
+```ruby
+publication = Firstjob::Publication.new
+publication.id = 800 # ID of an existing publication
+publication.postulants
+```
+Returns hash with postulants data. Example:
+```ruby
+=> [{"id"=>nil, "email"=>"postulant@gmail.com", "university_id"=>8,
+"principal_career_id"=>1057, "career_status"=>3, "english_level"=>2,
+"years_experience"=>1}, ...}]
+```
+### Unpublish a publication
+```ruby
+publication = Firstjob::Publication.new
+publication.id = 800 # ID of an existing publication
+publication.destroy
+```
+If succeded, returns the body of Firstjob response:
+```ruby
+ => "{\"mensaje\":\"Trabajo dado de baja\"}"
+```
 
-Work in progress...
-
-### Development
+### Development & Testing
 You can start the gem in a standalone ruby console with:
 ```
 $ rake console
