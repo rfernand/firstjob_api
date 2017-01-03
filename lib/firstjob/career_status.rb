@@ -1,6 +1,6 @@
 module Firstjob
   class CareerStatus
-    CAREER_STATUSES = YAML.load_file("lib/data/career_statuses.yaml")["career_statuses"].symbolize_keys!
+    CAREER_STATUSES = YAML.load_file(File.join(File.dirname(__FILE__),"../data/career_statuses.yaml"))["career_statuses"].symbolize_keys!
 
     # Poor's man all
     def self.all

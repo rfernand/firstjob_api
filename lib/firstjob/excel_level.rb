@@ -1,6 +1,6 @@
 module Firstjob
   class ExcelLevel
-    EXCEL_LEVELS = YAML.load_file("lib/data/excel_levels.yaml")["excel_levels"].symbolize_keys!
+    EXCEL_LEVELS = YAML.load_file(File.join(File.dirname(__FILE__),"../data/excel_levels.yaml"))["excel_levels"].symbolize_keys!
 
     # Poor's man all
     def self.all

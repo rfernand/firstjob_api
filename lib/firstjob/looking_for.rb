@@ -1,6 +1,6 @@
 module Firstjob
   class LookingFor
-    LOOKING_FORS = YAML.load_file("lib/data/looking_fors.yaml")["looking_fors"].symbolize_keys!
+    LOOKING_FORS = YAML.load_file(File.join(File.dirname(__FILE__),"../data/looking_fors.yaml"))["looking_fors"].symbolize_keys!
 
     # Poor's man all
     def self.all

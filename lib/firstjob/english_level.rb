@@ -1,6 +1,6 @@
 module Firstjob
   class EnglishLevel
-    ENGLISH_LEVELS = YAML.load_file("lib/data/english_levels.yaml")["english_levels"].symbolize_keys!
+    ENGLISH_LEVELS = YAML.load_file(File.join(File.dirname(__FILE__),"../data/english_levels.yaml"))["english_levels"].symbolize_keys!
 
     # Poor's man all
     def self.all
