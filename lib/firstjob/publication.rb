@@ -3,7 +3,7 @@ module Firstjob
     attr_accessor :title, :description, :career_status_id,
       :looking_for_id, :location, :years_experience, :salary,
       :english_level_id, :excel_level_id, :careers_ids,
-      :universities_ids, :id, :slug, :status, :postulants
+      :universities_ids, :id, :slug, :status, :postulantes
   
     def initialize(attributes={})
       # Default values
@@ -58,8 +58,8 @@ module Firstjob
       response_body = HttpParser.parse_json_response(response)
 
       # load results
-      @postulants = response_body["postulants"]
-      return postulants
+      @postulantes = response_body["postulantes"]
+      return @postulantes
     end
 
     def destroy
