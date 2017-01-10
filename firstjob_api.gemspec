@@ -5,7 +5,7 @@ require "firstjob_api/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "firstjob"
+  s.name        = "firstjob_api"
   s.version     = FirstjobApi::VERSION
   s.authors     = ["Rodrigo Fernandez"]
   s.email       = ["chaotiklv@gmail.com"]

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    firstjob (1.0.2)
+    firstjob_api (1.0.3)
       httparty (>= 0.13.3)
       rails (>= 3.2)
 
@@ -133,7 +133,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  firstjob!
+  firstjob_api!
   pry-byebug
   rake
   rspec
