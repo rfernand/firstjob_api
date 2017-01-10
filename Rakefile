@@ -26,10 +26,10 @@ task :test => :spec
 task :console do
   require 'irb'
   require 'irb/completion'
-  require './lib/firstjob'
+  require './lib/firstjob_api'
 
   def reload!
-    files = $LOADED_FEATURES.select { |feat| feat =~ %r{/firstjob/} }
+    files = $LOADED_FEATURES.select { |feat| feat =~ %r{/firstjob_api/} }
     files.each { |file| load file }
   end
 

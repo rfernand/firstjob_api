@@ -19,8 +19,8 @@ RSpec.configure do |config|
   config.order = 'random'
 end
 
-require 'firstjob'
-require 'firstjob/publication'
+require 'firstjob_api'
+require 'firstjob_api/publication'
 begin
   require 'firstjob_initializer_helper'
 rescue Exception => e
