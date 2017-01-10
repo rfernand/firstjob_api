@@ -1,4 +1,4 @@
-module Firstjob
+module FirstjobApi
   class LookingFor
     LOOKING_FORS = YAML.load_file(File.join(File.dirname(__FILE__),"../data/looking_fors.yaml"))["looking_fors"].symbolize_keys!
 

@@ -13,7 +13,7 @@ require 'firstjob/university'
 require 'firstjob/publication'
 require 'firstjob/http_parser'
 
-module Firstjob
+module FirstjobApi
   include HTTParty
   base_uri 'https://api.firstjob.com'
 
@@ -58,7 +58,7 @@ module Firstjob
   @@try_counter = 0
   
 
-  # Default way to setup Firstjob.
+  # Default way to setup FirstjobApi.
   def self.setup
     yield self
     # It does not use basic http auth, it passes the username and password in the body of the request...
@@ -70,7 +70,7 @@ module Firstjob
   # Publicaciones
   # creates and publish a publication
   def self.publish(params)
-    publication = Firstjob::Publication.create(params)
+    publication = FirstjobApi::Publication.create(params)
     return publication
   end
 

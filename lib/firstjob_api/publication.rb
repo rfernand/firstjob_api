@@ -1,4 +1,4 @@
-module Firstjob
+module FirstjobApi
   class Publication
     attr_accessor :title, :description, :career_status_id,
       :looking_for_id, :location, :years_experience, :salary,
@@ -30,9 +30,9 @@ module Firstjob
 
     def publish
       # Post publication
-      response = Firstjob.post("/api/publish_job",
-                               Firstjob.options.merge(
-                                 body: Firstjob.body.merge({publish_job: self.body}).to_json
+      response = FirstjobApi.post("/api/publish_job",
+                               FirstjobApi.options.merge(
+                                 body: FirstjobApi.body.merge({publish_job: self.body}).to_json
                                 )
                               )
       response_body = HttpParser.parse_json_response(response)
@@ -45,14 +45,14 @@ module Firstjob
     end
 
     def url
-      "#{Firstjob.base_uri}/jobs/#{slug}"
+      "#{FirstjobApi.base_uri}/jobs/#{slug}"
     end
 
     def postulants
       # Get postulants
-      response = Firstjob.post("/api/get_applicants_job",
-                               Firstjob.options.merge(
-                                 body: Firstjob.body.merge({job_id: @id}).to_json
+      response = FirstjobApi.post("/api/get_applicants_job",
+                               FirstjobApi.options.merge(
+                                 body: FirstjobApi.body.merge({job_id: @id}).to_json
                                 )
                               )
       response_body = HttpParser.parse_json_response(response)
@@ -63,9 +63,9 @@ module Firstjob
     end
 
     def destroy
-      response = Firstjob.post("/api/doregister_job",
-                               Firstjob.options.merge(
-                                 body: Firstjob.body.merge({job_id: id}).to_json
+      response = FirstjobApi.post("/api/doregister_job",
+                               FirstjobApi.options.merge(
+                                 body: FirstjobApi.body.merge({job_id: id}).to_json
                                 )
                               )
       response_body = HttpParser.parse_response(response)

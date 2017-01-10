@@ -6,12 +6,12 @@ require "firstjob/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "firstjob"
-  s.version     = Firstjob::VERSION
+  s.version     = FirstjobApi::VERSION
   s.authors     = ["Rodrigo Fernandez"]
   s.email       = ["chaotiklv@gmail.com"]
   s.homepage    = "https://github.com/rfernand/firstjob"
-  s.summary     = "A gem to access the Firstjob api"
-  s.description = "A gem to access the Firstjob api"
+  s.summary     = "A gem to access the Firstjob API"
+  s.description = "A gem to access the Firstjob API"
   s.license     = "MIT"
 
   #s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]

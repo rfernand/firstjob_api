@@ -1,4 +1,4 @@
-module Firstjob
+module FirstjobApi
   class HttpParser
     def self.parse_json_to_hash(json, hash)
       json.each{|object| hash[object["id"]] ? hash[object["id"]].merge!(object) : hash[object["id"]] = object}
@@ -6,14 +6,14 @@ module Firstjob
     end
 
     def self.parse_response(response)
-      Firstjob.last_response = response
-      Firstjob.last_request = response.request
+      FirstjobApi.last_response = response
+      FirstjobApi.last_request = response.request
       case response.code
         when 200..201
           # "All good!"
           return response.body
         when 401
-          Firstjob.invalidate_access_token!
+          FirstjobApi.invalidate_access_token!
           raise "Error 401: Unauthorized. Check login info.\n #{response.body}"
         when 403
           raise "Error 403: Forbidden"
@@ -26,14 +26,14 @@ module Firstjob
       end
     end
     def self.parse_json_response(response)
-      Firstjob.last_response = response
-      Firstjob.last_request = response.request
+      FirstjobApi.last_response = response
+      FirstjobApi.last_request = response.request
       case response.code
         when 200..201
           # "All good!"
           return JSON.parse(response.body)
         when 401
-          Firstjob.invalidate_access_token!
+          FirstjobApi.invalidate_access_token!
           raise "Error 401: Unauthorized. Check login info.\n #{response.body}"
         when 403
           raise "Error 403: Forbidden"

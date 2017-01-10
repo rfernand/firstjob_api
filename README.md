@@ -1,10 +1,10 @@
-# Firstjob
+# FirstjobApi
 
 This gem was made to connect to the Firstjob api found in https://developers.firstjob.com 
 
 ## Getting started
 
-Firstjob works with Rails 3.2 onwards. You can add it to your Gemfile with:
+FirstjobApi works with Rails 3.2 onwards. You can add it to your Gemfile with:
 
 ```ruby
 gem 'firstjob'
@@ -17,13 +17,13 @@ gem 'firstjob', :git => 'git@github.com:rfernand/firstjob.git', :branch => 'mast
 ```
 ### Configuration
 
-After you finished the gem installation, you need to configure it with your Firstjob user information. You can do it filling a file like config/initializers/firstjob.rb with:
+After you finished the gem installation, you need to configure it with your FirstjobApi user information. You can do it filling a file like config/initializers/firstjob.rb with:
 
 ```ruby
-Firstjob.setup do |config|
-  config.username   = ""          # Firstjob client username
-  config.password   = ""          # Firstjob client password
-  config.base_uri ""              # You need to provide the URL for the endpoint of the Firstjob API
+FirstjobApi.setup do |config|
+  config.username   = ""          # FirstjobApi client username
+  config.password   = ""          # FirstjobApi client password
+  config.base_uri ""              # You need to provide the URL for the endpoint of the FirstjobApi API
 end
 ```
 ## How to use
@@ -32,14 +32,14 @@ end
 And more that don't need an ID. All return a json object, and raise an error (401, 404, 500) if there was one:
 ### Create and publish a publication
 ```ruby
-publication = Firstjob::Publication.new(title: "Publicacion de prueba", description: "Test", looking_for_id: 1, career_status_id: 1, excel_level_id: 2, english_level_id: 2, universities_ids: [1,2], careers_ids: [1, 6])
+publication = FirstjobApi::Publication.new(title: "Publicacion de prueba", description: "Test", looking_for_id: 1, career_status_id: 1, excel_level_id: 2, english_level_id: 2, universities_ids: [1,2], careers_ids: [1, 6])
 publication.publish()
 ```
-Returns Firstjob::Publication object with the publication.id and publication.slug issued by Firstjob.
+Returns FirstjobApi::Publication object with the publication.id and publication.slug issued by FirstjobApi.
 
 ### Get postulants of a publication
 ```ruby
-publication = Firstjob::Publication.new
+publication = FirstjobApi::Publication.new
 publication.id = 800 # ID of an existing publication
 publication.postulants
 ```
@@ -51,11 +51,11 @@ Returns hash with postulants data. Example:
 ```
 ### Unpublish a publication
 ```ruby
-publication = Firstjob::Publication.new
+publication = FirstjobApi::Publication.new
 publication.id = 800 # ID of an existing publication
 publication.destroy
 ```
-If succeded, returns the body of Firstjob response:
+If succeded, returns the body of FirstjobApi response:
 ```ruby
  => "{\"mensaje\":\"Trabajo dado de baja\"}"
 ```

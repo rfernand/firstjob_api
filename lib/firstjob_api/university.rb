@@ -1,4 +1,4 @@
-module Firstjob
+module FirstjobApi
   class University
     UNIVERSITIES = YAML.load_file(File.join(File.dirname(__FILE__),"../data/universities.yaml"))["universities"].symbolize_keys!
 

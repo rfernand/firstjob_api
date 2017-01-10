@@ -1,4 +1,4 @@
-module Firstjob
+module FirstjobApi
   class EnglishLevel
     ENGLISH_LEVELS = YAML.load_file(File.join(File.dirname(__FILE__),"../data/english_levels.yaml"))["english_levels"].symbolize_keys!
 

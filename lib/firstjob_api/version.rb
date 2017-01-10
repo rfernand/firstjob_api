@@ -1,3 +1,3 @@
-module Firstjob
-  VERSION = "1.0.1"
+module FirstjobApi
+  VERSION = "1.0.2"
 end
