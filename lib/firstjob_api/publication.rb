@@ -3,7 +3,9 @@ module FirstjobApi
     attr_accessor :title, :description, :career_status_id,
       :looking_for_id, :location, :years_experience, :salary,
       :english_level_id, :excel_level_id, :careers_ids,
-      :universities_ids, :id, :slug, :status, :postulantes
+      :universities_ids, :id, :slug, :postulantes, :questions,
+      :publish_response
+      
   
     def initialize(attributes={})
       # Default values
@@ -13,6 +15,7 @@ module FirstjobApi
       @years_experience = 0
       @english_level_id = 1
       @excel_level_id = 1
+      @questions = []
 
       attributes.each do |key, value|
         self.send("#{key}=", value)
@@ -40,7 +43,7 @@ module FirstjobApi
       # load results
       @slug = response_body["slug"]
       @id = response_body["id"]
-      @status = response_body["status"]
+      @publish_response = response
       return self
     end
 
@@ -89,6 +92,9 @@ module FirstjobApi
       end
       if universities_ids.present?
         hash[:universities] = universities_ids # optional, array or NOT PRESENT
+      end
+      if questions.present?
+        hash[:questions] = questions  # optional, array or NOT PRESENT
       end
       return hash
     end
