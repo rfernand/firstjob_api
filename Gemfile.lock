@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    firstjob_api (1.0.5)
+    firstjob_api (1.0.6)
       httparty (>= 0.13.3)
       rails (>= 3.2)
 

@@ -55,7 +55,7 @@ module FirstjobApi
       # Get postulants
       response = FirstjobApi.post("/api/get_applicants_job",
                                FirstjobApi.options.merge(
-                                 body: FirstjobApi.body.merge({job_id: @id}).to_json
+                                 body: FirstjobApi.body.merge({job_id: @id, slug: @slug}).to_json
                                 )
                               )
       response_body = HttpParser.parse_json_response(response)
