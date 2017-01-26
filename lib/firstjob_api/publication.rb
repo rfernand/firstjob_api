@@ -51,7 +51,7 @@ module FirstjobApi
       "#{FirstjobApi.base_uri}/jobs/#{slug}"
     end
 
-    def postulants
+    def get_postulants
       # Get postulants
       response = FirstjobApi.post("/api/get_applicants_job",
                                FirstjobApi.options.merge(
@@ -61,8 +61,17 @@ module FirstjobApi
       response_body = HttpParser.parse_json_response(response)
 
       # load results
-      @postulantes = response_body["postulantes"]
-      return @postulantes
+      if response_body && response_body["postulaciones"]
+        @postulantes = response_body["postulaciones"]["postulantes"]
+      else
+        # In case the API changes... fallback to response body
+        @postulantes = response_body
+      end
+      return response
+    end
+
+    def postulants
+      @postulantes || get_postulants && @postulantes
     end
 
     def destroy
