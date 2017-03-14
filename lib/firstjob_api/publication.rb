@@ -33,7 +33,7 @@ module FirstjobApi
 
     def publish
       # Post publication
-      response = FirstjobApi.post("/api/publish_job",
+      response = FirstjobApi.post("/publish_job",
                                FirstjobApi.options.merge(
                                  body: FirstjobApi.body.merge({publish_job: self.body}).to_json
                                 )
@@ -53,7 +53,7 @@ module FirstjobApi
 
     def get_postulants
       # Get postulants
-      response = FirstjobApi.post("/api/get_applicants_job",
+      response = FirstjobApi.post("/get_applicants_job",
                                FirstjobApi.options.merge(
                                  body: FirstjobApi.body.merge({job_id: @id, slug: @slug}).to_json
                                 )
@@ -75,7 +75,7 @@ module FirstjobApi
     end
 
     def destroy
-      response = FirstjobApi.post("/api/doregister_job",
+      response = FirstjobApi.post("/doregister_job",
                                FirstjobApi.options.merge(
                                  body: FirstjobApi.body.merge({job_id: id}).to_json
                                 )
