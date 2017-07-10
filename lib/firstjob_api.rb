@@ -15,7 +15,7 @@ require 'firstjob_api/http_parser'
 
 module FirstjobApi
   include HTTParty
-  base_uri 'https://api.firstjob.me'
+  base_uri 'http://api.firstjob.me'
 
   # API login configuration, need initialization setup to work
   mattr_accessor :grant_type
